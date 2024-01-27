@@ -1,4 +1,5 @@
-Encriptador y Desencriptador
+Encriptador y Desencriptador.
+
 Las "llaves" de encriptación que utilizaremos son las siguientes:
 
 La letra "e" es convertida para "enter"
