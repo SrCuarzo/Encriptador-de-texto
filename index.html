@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width"> 
+        <title>Encriptador de texto</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="encriptador.js"></script>
+        <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>   
+        <body> 
+            <main>
+            <div class="container">
+                <div class="logo">
+                    <img class="logoImg" src="img/Logo.png">
+                    <h1 class="title">Encriptador de mensajes</h1>
+
+                </div>
+                <div class="left">
+                    <input class="text-input" id="inputTexto" placeholder="Ingrese el texto aquí" type="text">
+                </div>
+                <div class="right">
+                    <img src="img/Muñeco.png" id="imgDer">
+                    <h1 id="texto">Ningún mensaje fue encontrado</h1>
+                    <textarea name="" id="texto2" cols="30" rows="10">Ingrese el texto que desees encriptar o desencriptar</textarea>
+                    <button id="copiar" type="button" name="button" onclick="copiar()">Copiar</button>
+                </div>
+                <div class="left-button">
+                    <img src="img/bi_exclamation-circle-fill-1.png" id="imgIzq">
+                    <p id="textoAlt">Sólo minúsculas y sin acentos</p>
+                    <button type="button" id="btn-encriptar" onclick="encriptar()">Encriptar</button>
+                    <button type="button" id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+                </div>
+
+            </div>
+            </main>
+            <footer>
+                <p class="copyright">&copy Copyright - Diseño creado por SrCuarzo - 2024</p>
+            </footer>
+        </body>
+                    
+</html>
